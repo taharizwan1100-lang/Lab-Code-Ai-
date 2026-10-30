@@ -1,4 +1,4 @@
-# Python Lab Assignment
+# Python Lab Exercises
 
 **Name:** Taha Ahmad
 
@@ -69,3 +69,23 @@ python result.py
 Run one command at a time and enter the values requested. On Windows, `py` can be used instead of `python`.
 
 Enter numbers at numeric prompts; letters will cause an error. The text reports are saved in the working folder and replaced when the same program is run again.
+
+## Technologies
+
+Python 3 and its standard library; no external packages are required.
+
+## File overview
+
+| Program | Purpose | Generated report |
+| --- | --- | --- |
+| `sentence.py` | Analyze sentence statistics | `word_analysis.txt` |
+| `menu.py` | Record restaurant orders | `orders.txt` |
+| `calculator.py` | Perform arithmetic operations | None |
+| `bill.py` | Calculate a five-product bill | `bill.txt` |
+| `result.py` | Calculate five student results | `result.txt` |
+
+## Known limitations
+
+- Numeric prompts require numeric input; invalid text can stop the program.
+- Generated reports replace previous reports with the same filename.
+- Use fictional names and marks when sharing sample reports.
